@@ -12,7 +12,7 @@ processing in Python.
 
 ## Input Data
 The script expects comma-separated text files containing interferogram data
-with two columns of which only the first column is used:
+with two columns of which only the second column is used:
 
 1. acquisition index
 2. Signal intensity
