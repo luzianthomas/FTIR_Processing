@@ -1,6 +1,6 @@
 # FT-IR Data Processing
 
-## Overview
+## Summary
 This is a small project to demonstrate basic data processing and analysis of time-domain
 interferograms recorded on an FT-IR spectrometer. The script extracts the
 zero-path-difference (ZPD) regions, performs Fourier transformation, computes
