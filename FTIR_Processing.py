@@ -106,7 +106,7 @@ def main():
     transmittance = compute_transmittance(sample_spec, bg_spec)
     absorbance = compute_absorbance(transmittance)
 
-    # Selects the relevant region (typically 400 to 4000 cm-1)
+    # Selects the relevant region (most commonly 400 to 4000 cm-1)
     nu_region, transmittance_region = select_region(nu, transmittance, nu_min, nu_max)
     nu_region, absorbance_region = select_region(nu, absorbance, nu_min, nu_max)
 
